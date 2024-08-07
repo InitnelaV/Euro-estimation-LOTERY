@@ -4,12 +4,12 @@ It should incrementally add the results of the Tuesday and Friday draws to the l
 
 I haven't been able to extract data from a CSV edited by the FDJ (Fédération Française des loteries) yet.
 
-
+--BEGIN UPDATE---
 The V2 include the import .csv data
 You can find the results here https://www.fdj.fr/jeux-de-tirage/euromillions-my-million/historique?msockid=19e4fa7c7bfc69c70b3deeaf7aa1688c
 When you DL, the .zip, extrcat the .csv, then, keep andformat your file in 7 columns
 boule_1	boule_2	boule_3	boule_4	boule_5	etoile_1	etoile_2
-
+---END OF UPDATE---
 Enjoy
 
 ---WARNING---
