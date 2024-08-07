@@ -17,6 +17,6 @@ Enjoy
 
 ---WARNING---
 
-This script is used to calculate probabilities and does not in any way reflect the draw or the final result. Predicting with 100% accuracy would be divine or quantum... You will not win anything by playing these numbers. Like alcohol, the abuse of gambling is harmful to oneself and one's surroundings
+This script is used to calculate probabilities and does not in any way reflect the draw or the final result. Predicting with 100% accuracy would be Divine or quantum... You will not win anything by playing these numbers. Like alcohol, the abuse of gambling is harmful to oneself and one's surroundings
 
 ---WARNING---
