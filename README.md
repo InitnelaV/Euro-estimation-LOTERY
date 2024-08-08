@@ -14,7 +14,7 @@ boule_1	boule_2	boule_3	boule_4	boule_5	etoile_1	etoile_2
 ---END OF UPDATE---
 
 
-V3 is the Lateste version 
+V3 is the Latest version 
 
 --BEGIN UPDATE---
 
