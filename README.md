@@ -27,6 +27,9 @@ date_de_tirage	boule_1	boule_2	boule_3	boule_4	boule_5	etoile_1	etoile_2
 
 Enjoy
 
+![image](https://github.com/user-attachments/assets/1d7e6e86-58a6-4bcc-a469-051ffbfef924)
+
+
 ---WARNING---
 
 This script is used to calculate probabilities and does not in any way reflect the draw or the final result. Predicting with 100% accuracy would be Divine or quantum... You will not win anything by playing these numbers. Like alcohol, the abuse of gambling is harmful to oneself and one's surroundings
