@@ -32,3 +32,19 @@ Enjoy
 This script is used to calculate probabilities and does not in any way reflect the draw or the final result. Predicting with 100% accuracy would be Divine or quantum... You will not win anything by playing these numbers. Like alcohol, the abuse of gambling is harmful to oneself and one's surroundings
 
 ---WARNING---
+
+---WARNING DOUBLE TAPE---
+
+WARNING!!! This script is used to learn and work with the PANDAS library in PYTHON. It’s a personal project designed to manipulate and analyze data. If we take the EuroMillions 'Template', it remains quite basic…
+
+What is EuroMillions? It’s a lottery game. And what is the lottery? Well, it’s a series of numbers that are drawn in sets of 5 numbers + 2 additional numbers (7 numbers in total) twice a week, on Tuesdays and Fridays.
+
+The script will analyze the files provided by the FDJ (all the drawn numbers, which can be refined by removing or adding dates as needed), then estimate the probabilities of numbers being drawn and display the date of the next draw.
+
+Of course, I must repeat, these are not the winning numbers that will come up, only a probability based on the history of draws provided in the file. To achieve a 100% prediction would require divine intervention or quantum computing.
+
+So, this script does not have a predictive purpose in the literal sense but rather aims to take into account all the draw elements over a given period (FDJ data), which can be adjusted, and then estimate probabilities.
+
+This script is open-source, and of course, I am available to discuss and explain it if needed.
+
+---WARING DOUBLE TAPE---
