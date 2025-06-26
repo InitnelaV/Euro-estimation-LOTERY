@@ -4,6 +4,21 @@ It should incrementally add the results of the Tuesday and Friday draws to the l
 
 I haven't been able to extract data from a CSV edited by the FDJ (Fédération Française des loteries) yet.
 
+--BEGIN UPDATE--
+
+V5 includes a visual chart and a new estimation method based on weighted values
+
+It counts each draw with the same weight, whether it happened in 3 months ago or yesterday.
+
+So: a global average over the entire history → the ratios are stable but less "responsive" to recent trends.
+
+New script (with weighting enabled):
+Each draw is weighted based on how recent it is.
+
+Example: a draw from 2 days ago will count much more than one from 3 years ago.
+
+So: the results vary because recent draws carry more weight in the ratio calculations.
+
 --BEGIN UPDATE---
 
 The V2 include the import .csv data.
