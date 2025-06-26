@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 
-# Lire le fichier CSV en sécurisant les types
+# Lire le CSV et check delimiter sinon erreur
 try:
     df = pd.read_csv('euromillions_202002.csv', delimiter=';')
 except FileNotFoundError:
@@ -13,20 +13,20 @@ except FileNotFoundError:
 df['date_de_tirage'] = pd.to_datetime(df['date_de_tirage'], format='%d/%m/%Y', errors='coerce')
 df.dropna(subset=['date_de_tirage'], inplace=True)
 
-# Vérifier que les colonnes nécessaires existent
+# Contrôler que les colonnes nécessaires existent
 required_columns = ['boule_1', 'boule_2', 'boule_3', 'boule_4', 'boule_5', 'etoile_1', 'etoile_2']
 for col in required_columns:
     if col not in df.columns:
         print(f"Colonne manquante : {col}")
         exit()
 
-# Initialiser les compteurs
+# Initialisation des  compteurs
 boules_counts = {i: 0 for i in range(1, 51)}
 etoiles_counts = {i: 0 for i in range(1, 13)}
 
-# Pondération selon la récence (optionnel)
+# Pondération selon la récence du tirage (optionnel mais utile)
 today = datetime.today()
-use_weighting = True  # Mettre False pour désactiver
+use_weighting = True  # Passer à False pour disabled
 
 # Parcourir les lignes
 for _, row in df.iterrows():
